@@ -1,0 +1,6 @@
+#clock {height: 400px; width: 400px; position: relative; border-radius: 50%; border: 10px solid black; margin: 20px auto; background-color: pink;}
+#hour-package, #min-package, #sec-package {position:absolute; top: 0; right: 0; bottom: 0; left: 0; margin-top: 8%; margin-top: 8%;}
+#hours {width: 2.3%; height: 30%; background-color: gray; margin-left: 48.75%; margin-top: 18%; animation: rotate 43200s infinite linear; position: absolute; transform-origin: 50% 100%;}
+#min {height: 50%; width: 1.8%; position: absolute; background-color: royalblue; margin-left: 49%; margin top: 10%; animation: rotate 3600s infinite linear; transform-origin: 50% 100%;}
+#sec {height: 60%; width: 1%; position: absolute; background-color: rebeccapurple; margin-left: 49%; margin top: 14%; margin bottom: 14%; animation: rotate 60s infinite linear; transform-origin: 50% 80%;}
+@keyframes rotate {100% {transform: rotateZ(360deg);}}
